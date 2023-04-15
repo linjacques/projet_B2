@@ -1,0 +1,27 @@
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    text-decoration: underline;
+  }
+  
+  .likes-count,
+  .dislikes-count {
+    font-size: 14px;
+    font-weight: bold;
+  }
